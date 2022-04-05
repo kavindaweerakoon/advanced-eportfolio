@@ -753,6 +753,7 @@ footer {
 
   .modal__contact {
     transform: translateY(-110%);
+    
   }
 
   .modal__about {
@@ -792,5 +793,7 @@ footer {
 
   .modal__half {
     padding: 40px;
+    
   }
+  
 }
