@@ -414,6 +414,7 @@ transform: translateY(0%);
   flex-wrap: wrap;
   align-items: center;
   margin: 16px 0;
+  justify-content: center;
 }
 
 .modal__language {
