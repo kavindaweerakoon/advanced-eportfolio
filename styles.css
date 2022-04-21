@@ -784,6 +784,10 @@ footer {
     transform: translateY(110%);
   }
 
+  .footer__logo--img {
+    height: 75px;
+  }
+
 }
 /* Small phones  */
 @media (max-width: 480px) {
@@ -832,6 +836,10 @@ footer {
   .modal__half {
     padding: 40px;
     
+  }
+
+  .footer__logo--img {
+    height: 50px;
   }
   
 }
