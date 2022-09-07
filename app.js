@@ -22,7 +22,7 @@ function contact(event) {
   }).catch(() => {
     loading.classList.remove("modal__overlay--visible")
     alert(
-        "The email service is temporarily unavailable. Please contact me directly at \nkw@kwnetic.com. "
+        "The email service is temporarily unavailable. Please contact me directly at \nkavinda@kwnetic.com. "
     );
   }) 
   
