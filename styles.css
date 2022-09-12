@@ -278,16 +278,7 @@ a {
   -moz-animation: scroll 1000ms infinite alternate-reverse;
   -webkit-animation: scroll 1000ms infinite alternate-reverse;
   animation: scroll 1000ms infinite alternate-reverse;
-
-@keyframes scroll {
-  0% {
-    transform: translateY(3px);
-  }
-  100% {
-    transform: translateY(-3px);
-  }
 }
-
 @-webkit-keyframes scroll {
   0% {
     -webkit-transform: translateY(3px);
@@ -303,6 +294,15 @@ a {
   }
   100% {
     -moz-transform: translateY(-3px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
   }
 }
 
@@ -543,7 +543,6 @@ nav figure {
   -moz-animation: spinner 1000ms infinite linear;
   -webkit-animation: spinner 1000ms infinite linear;
   animation: spinner 1000ms infinite linear;
-
 }
 
 @keyframes spinner {
