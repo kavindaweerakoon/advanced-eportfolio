@@ -594,6 +594,7 @@ nav figure {
 .project {
   margin: 128px auto;
   width: 90%;
+  border-radius: 20px;
 }
 .project__wrapper {
   position: relative;
