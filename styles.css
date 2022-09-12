@@ -595,6 +595,11 @@ nav figure {
   margin: 128px auto;
   width: 90%;
 }
+.project__wrapper {
+  position: relative;
+  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
+  overflow: hidden;
+}
 
 .project__img {
   width: 100%;
@@ -603,11 +608,9 @@ nav figure {
   transition: all 600ms ease;
 }
 
-.project__wrapper {
-  position: relative;
+.project__wrapper,
+.project_-img {
   border-radius: 20px;
-  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
-  overflow: hidden;
 }
 
 .project__wrapper:hover .project__description {
