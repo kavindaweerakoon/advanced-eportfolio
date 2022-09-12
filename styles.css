@@ -609,7 +609,7 @@ nav figure {
 }
 
 .project__wrapper,
-.project_-img,
+.project__img,
 .project__wrapper--bg {
   border-radius: 20px;
 }
