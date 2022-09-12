@@ -753,7 +753,7 @@ footer {
 /* SMALL PHONES, TABLETS, LARGE SMART PHONES  */
 /* Learn clamp! */
 
-@media (max-width: 768px) {
+@media (max-device-width: 768px) {
  
   
   .title {
@@ -793,7 +793,7 @@ footer {
 
 }
 /* Small phones  */
-@media (max-width: 480px) {
+@media (max-device-width: 480px) {
   .title {
     font-size: 52px;
 
