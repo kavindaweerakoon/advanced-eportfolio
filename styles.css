@@ -255,6 +255,7 @@ a {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 999;
 }
 
 .scroll__icon {
@@ -341,12 +342,8 @@ nav figure {
 
 #personal-logo {
   width: 100px;
-
   margin-top: 10px;
   object-fit: contain;
-}
-
-#personal-logo img {
 }
 
 .nav__link--list {
@@ -626,6 +623,7 @@ nav figure {
   text-align: center;
   font-size: 48px;
   margin-bottom: 64px;
+  position: relative;
 }
 
 .project {
