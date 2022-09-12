@@ -273,9 +273,22 @@ a {
   height: 6px;
   background-color: #242424;
   border-radius: 2px;
-  animation: scroll 1000ms infinite alternate-reverse;
-  -webkit-animation: scroll 1000ms infinite alternate-reverse;
-  -moz-animation: scroll 1000ms infinite alternate-reverse;
+ 
+  animation-name: scroll;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  
+  -webkit-animation-name: scroll;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate-reverse;
+
+  -moz-animation-name: scroll;
+  -moz-animation-duration: 1000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-direction: alternate-reverse;
+  
 }
 
 @keyframes scroll {
@@ -547,9 +560,25 @@ nav figure {
 }
 
 .fa-spinner {  
-  -webkit-animation: spinner 1000ms infinite linear;
-  -moz-animation: spinner 1000ms infinite linear;
-  animation: spinner 1000ms infinite linear;
+
+  /* animation: spinner 1000ms infinite linear; */
+
+  animation-name: spinner;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  -webkit-animation-name: spinner;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-animation-name: spinner;
+  -moz-animation-duration: 1000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+
 
 }
 
