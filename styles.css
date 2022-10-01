@@ -423,9 +423,8 @@ nav figure {
 }
 
 .modal__language {
-  width: 33%;
-  height: 89px;
-  padding: 24px;
+  width: 25%;
+  padding: 14px;
   margin-bottom: 16px;
   position: relative;
   display: flex;
@@ -434,6 +433,7 @@ nav figure {
   transition: all 250ms ease;
   justify-content: center;
 }
+
 
 .modal__language:hover .language__name {
   transform: scale(1);
@@ -445,6 +445,7 @@ nav figure {
 }
 
 .language__name {
+  text-align: center;
   position: absolute;
   bottom: -20px;
   transform: scale(0);
@@ -453,6 +454,9 @@ nav figure {
 
 .modal__language--img {
   width: 100%;
+ 
+  object-fit: cover;
+  
 }
 
 .modal__contact {
