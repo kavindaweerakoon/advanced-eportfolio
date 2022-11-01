@@ -434,7 +434,6 @@ nav figure {
   justify-content: center;
 }
 
-
 .modal__language:hover .language__name {
   transform: scale(1);
 }
@@ -454,9 +453,8 @@ nav figure {
 
 .modal__language--img {
   width: 100%;
- 
+
   object-fit: cover;
-  
 }
 
 .modal__contact {
@@ -476,9 +474,8 @@ nav figure {
 }
 
 .modal__para {
-  font-size: 14px;
-  margin-bottom: 12px;
-  line-height: 1.75;
+  font-size: 12.5px;
+  line-height: 1.725;
   margin: 0 auto;
 }
 
