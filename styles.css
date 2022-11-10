@@ -72,11 +72,12 @@ textarea:focus {
 }
 
 .click:hover {
-  transform: scale(1.1);
+  transform: scale(1.075);
+
 }
 
 .click:active {
-  transform: scale(0.9);
+  transform: scale(0.925);
 }
 
 .blue {
@@ -328,7 +329,7 @@ nav figure {
 }
 
 #personal-logo {
-  width: 40%;
+  width:  192px;
   margin-top: 10px;
   object-fit: contain;
 }
