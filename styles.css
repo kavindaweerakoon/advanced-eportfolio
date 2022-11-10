@@ -83,6 +83,10 @@ textarea:focus {
   color: rgb(0, 132, 255);
 }
 
+.blue__bg {
+  background-color: rgb(0, 132, 255);
+}
+
 .title {
   font-size: 120px;
   margin-bottom: 12px;
@@ -215,7 +219,7 @@ nav,
 }
 
 .socials__links {
-  background-color: rgb(0, 132, 255);
+
   color: white;
   padding: 8px;
   display: flex;
@@ -324,7 +328,7 @@ nav figure {
 }
 
 #personal-logo {
-  width: 100px;
+  width: 40%;
   margin-top: 10px;
   object-fit: contain;
 }
