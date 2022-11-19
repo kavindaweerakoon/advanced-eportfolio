@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <title>Kavinda W</title>
     <link rel="stylesheet" href="./styles.css" />
     <script
@@ -11,20 +14,25 @@
       crossorigin="anonymous"
     ></script>
     <script src="./app.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-      (function() {
-      emailjs.init("user_dKIjfrEN6NhDK7bZgShb5");
+      (function () {
+        emailjs.init("user_dKIjfrEN6NhDK7bZgShb5");
       })();
-</script>
+    </script>
   </head>
   <body>
     <section id="landing-page" onmousemove="moveBackground(event)">
       <nav>
         <figure>
-       
-          <img src="./assets/kwnetic-logo-black.png" alt="" id="personal-logo" />
-      
+          <img
+            src="./assets/kwnetic-logo-black.png"
+            alt=""
+            id="personal-logo"
+          />
         </figure>
         <ul class="nav__link--list">
           <li class="nav__link" onclick="toggleModal()">
@@ -65,9 +73,15 @@
           <h1 class="title"><span class="blue">I'm Kav.</span></h1>
           <h5>(he/him)</h5>
           <p class="header__para">
-            I'm a <span class="blue">front-end web developer</span> and a <span class="blue">freelance copywriter.</span><br>
-            I have a passion for <span class="blue">web development</span> and generating amazing user experiences, as well as helping your business grow with expertise in <span class="blue">copywriting</span> at my agency, <span class="blue">KWNetic.</span>✨
-            <br />Here's a bit more <a href="#" class="blue" onclick="toggleModal()">about me. </a><span class="emoji">🤗</span>
+            I'm a <span class="blue">front-end web developer</span> and a
+            <span class="blue">copywriter.</span><br />
+            I have a passion for <span class="blue">web development</span> and
+            generating amazing user experiences, as well as helping your
+            business grow with my expertise in
+            <span class="blue">copywriting</span> at my agency,
+            <span class="blue">KWNetic.</span>✨ <br />Here's a bit more
+            <a href="#" class="blue" onclick="toggleModal()">about me. </a
+            ><span class="emoji">🤗</span>
           </p>
           <div class="socials">
             <a
@@ -91,7 +105,10 @@
           </div>
         </div>
       </header>
-      <button class="mail__btn click" onclick="toggleModal(), location.href='#' " >
+      <button
+        class="mail__btn click"
+        onclick="toggleModal(), location.href='#' "
+      >
         <i class="fas fa-envelope"></i>
       </button>
       <a href="#projects" class="scroll">
@@ -99,74 +116,133 @@
       </a>
       <div class="modal">
         <div class="modal__half modal__about">
-          <h3 class="modal__title modal__title--about">Here's some info about me. 🔎</h3>
-      
-          <h4 class="modal__subtitle modal__title--about">Front-End Web Developer <br>Freelance Copywriter</h4>
-          
+          <h3 class="modal__title modal__title--about">
+            Here's some info about me. 🔎
+          </h3>
+
+          <h4 class="modal__subtitle modal__title--about">
+            Front-End Web Developer &<br />Copywriter
+          </h4>
+
           <p class="modal__para">
-            I am a Canadian 🍁 <span class="blue">front-end web developer</span> with a
-            passion for web development and generating amazing <span class="blue">user experiences</span> to help you and your company <span class="blue">grow.</span> 🌱
-            <br><br>
-            I am also a freelancer specializing in <span class="blue">front-end development</span> and <span class="blue">copywriting</span>, and I will help your business gain more leads and outshine the competition with my expertise. 📈
-            <br><br>
-            I am an focused, detail-oriented developer starting my first experiences in <span class="blue">web development </span> over 10 years ago and I have knowledge working with <span class="blue">front-end</span> utilities such as <span class="blue">HTML5, CSS3, JS, React.js, Vue.js, TypeScript, SCSS and Tailwind CSS </span> and have experiences with <span class="blue">backend</span> utilities such as <span class="blue">SQL, PHP and Java.</span> 💻
+            I am a Canadian 🍁
+            <span class="blue">front-end web developer</span> with a passion for
+            web development and generating amazing
+            <span class="blue">user experiences</span> to help you and your
+            company <span class="blue">grow.</span> 🌱 <br /><br />
+            I also specialize in <span class="blue">copywriting</span>, and I
+            will help your business gain more leads and outshine the competition
+            with my expertise. 📈 <br /><br />
+            I am an focused, detail-oriented developer starting my first
+            experiences in <span class="blue">web development </span> over 10
+            years ago and I have knowledge working with
+            <span class="blue">front-end</span> utilities such as
+            <span class="blue"
+              >HTML5, CSS3, JS, React.js, Vue.js, TypeScript, SCSS and Tailwind
+              CSS
+            </span>
+            and have experiences with
+            <span class="blue">backend</span> utilities such as
+            <span class="blue">SQL, PHP and Java.</span> 💻
           </p>
           <div class="modal__languages">
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/HTML5_Badge.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/HTML5_Badge.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">HTML</span>
             </figure>
-              <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/CSS3_logo.svg" alt="" srcset="">              
+            <figure class="modal__language">
+              <img
+                class="modal__language--img"
+                src="./assets/CSS3_logo.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">CSS</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/Unofficial_JavaScript_logo_2.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/Unofficial_JavaScript_logo_2.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">JavaScript</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/React-icon.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/React-icon.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">React.js</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/Vue.js_Logo_2.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/Vue.js_Logo_2.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">Vue.js</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/Typescript_logo_2020.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/Typescript_logo_2020.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">TypeScript</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/Sass_Logo_Color.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/Sass_Logo_Color.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">SCSS</span>
             </figure>
             <figure class="modal__language">
-              <img class="modal__language--img" src="./assets/Tailwind_CSS_Logo.svg" alt="" srcset="">              
+              <img
+                class="modal__language--img"
+                src="./assets/Tailwind_CSS_Logo.svg"
+                alt=""
+                srcset=""
+              />
               <span class="language__name">Tailwind CSS</span>
             </figure>
-           
           </div>
         </div>
         <div class="modal__half modal__contact">
-          <i class="fas fa-times modal__exit click"  onclick="toggleModal()" ></i>
-          <h3 class="modal__title modal__title--contact">
-            Let's have a chat!
-          </h3>
+          <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
+          <h3 class="modal__title modal__title--contact">Let's have a chat!</h3>
           <h4 class="modal__subtitle modal__subtitle--contact">
             I look forward to speaking with you.
           </h4>
           <form id="contact__form" onsubmit="contact(event)">
             <div class="form__item">
               <label class="form__item--label">Name</label>
-              <input type="text" class="input" name="user_name" required></input>
+              <input type="text" class="input" name="user_name" required />
             </div>
             <div class="form__item">
-              <label  class="form__item--label">E-mail</label>
-              <input type="email" class="input" name="user_email" required></input>
+              <label class="form__item--label">E-mail</label>
+              <input type="email" class="input" name="user_email" required />
             </div>
             <div class="form__item">
               <label class="form__item--label">Message</label>
-              <textarea type="text" class="input" name="message" required></textarea>
+              <textarea
+                type="text"
+                class="input"
+                name="message"
+                required
+              ></textarea>
             </div>
             <button id="contact__submit" class="form__submit">Send it!</button>
           </form>
@@ -178,15 +254,15 @@
           </div>
         </div>
       </div>
-      <img src="./assets/semi circle.svg" class="shape shape--0">
-      <img src="./assets/circle.svg" class="shape shape--1">
-      <img src="./assets/squiggly.svg" class="shape shape--2">
-      <img src="./assets/circle.svg" class="shape shape--3">
-      <img src="./assets/triangle.svg" class="shape shape--4">
-      <img src="./assets/circle.svg" class="shape shape--5">
-      <img src="./assets/squiggly.svg" class="shape shape--6">
-      <img src="./assets/circle.svg" class="shape shape--7">
-      <img src="./assets/semi circle.svg" class="shape shape--8">
+      <img src="./assets/semi circle.svg" class="shape shape--0" />
+      <img src="./assets/circle.svg" class="shape shape--1" />
+      <img src="./assets/squiggly.svg" class="shape shape--2" />
+      <img src="./assets/circle.svg" class="shape shape--3" />
+      <img src="./assets/triangle.svg" class="shape shape--4" />
+      <img src="./assets/circle.svg" class="shape shape--5" />
+      <img src="./assets/squiggly.svg" class="shape shape--6" />
+      <img src="./assets/circle.svg" class="shape shape--7" />
+      <img src="./assets/semi circle.svg" class="shape shape--8" />
     </section>
     <section id="projects">
       <div class="container">
@@ -204,21 +280,32 @@
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">"Flicks" - React.js Project</h3>
+                  <h3 class="project__description--title">
+                    "Flicks" - React.js Project
+                  </h3>
                   <h4 class="project__description--subtitle">
                     HTML5, CSS3, JavaScript, React.js
                   </h4>
                   <p class="project__description--para">
-                    	Designed, developed, and hosted a movie lookup app. 
-	                    Implemented and executed Axios to fetch data from OMDb API asynchronously and displayed data as media content.
-	                    Included SEO, responsive, multi-platform, and hosting support.     
+                    Designed, developed, and hosted a movie lookup app.
+                    Implemented and executed Axios to fetch data from OMDb API
+                    asynchronously and displayed data as media content. Included
+                    SEO, responsive, multi-platform, and hosting support.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://github.com/kavindaweerakoon/flicks-react-project" class="project__description--link" target="_blank">
+                    <a
+                      href="https://github.com/kavindaweerakoon/flicks-react-project"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="https://flicks-react-project-kavindaweerakoon.vercel.app/" class="project__description--link" target="_blank">
+                    <a
+                      href="https://flicks-react-project-kavindaweerakoon.vercel.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -234,19 +321,31 @@
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">Social Media Clone - Twitter</h3>
+                  <h3 class="project__description--title">
+                    Social Media Clone - Twitter
+                  </h3>
                   <h4 class="project__description--subtitle">
                     HTML5, CSS3, JavaScript, React.js (+hooks), Firebase v9
                   </h4>
                   <p class="project__description--para">
-                    Created a fully responsive React.js web app clone that resembles Twitter. Stored and fetched tweets using Firebase Cloud database. 
+                    Created a fully responsive React.js web app clone that
+                    resembles Twitter. Stored and fetched tweets using Firebase
+                    Cloud database.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://github.com/kavindaweerakoon/twitter-clone" class="project__description--link" target="_blank">
+                    <a
+                      href="https://github.com/kavindaweerakoon/twitter-clone"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="https://twitter-clone-ashy-five.vercel.app/" class="project__description--link" target="_blank">
+                    <a
+                      href="https://twitter-clone-ashy-five.vercel.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -262,20 +361,34 @@
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">E-Mail Clone - Gmail</h3>
+                  <h3 class="project__description--title">
+                    E-Mail Clone - Gmail
+                  </h3>
                   <h4 class="project__description--subtitle">
-                    HTML5, CSS3, JavaScript, React.js (+hooks), Firebase v9, Redux
+                    HTML5, CSS3, JavaScript, React.js (+hooks), Firebase v9,
+                    Redux
                   </h4>
                   <p class="project__description--para">
-                    Used Firebase to export and fetch emails from a collection in a Firebase database and displayed the emails in a format that’s similar to the Gmail desktop web client. 
-                    Implemented Google Sign-In user authentication via Google Firebase to display user’s profile picture. 
+                    Used Firebase to export and fetch emails from a collection
+                    in a Firebase database and displayed the emails in a format
+                    that’s similar to the Gmail desktop web client. Implemented
+                    Google Sign-In user authentication via Google Firebase to
+                    display user’s profile picture.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://github.com/kavindaweerakoon/gmail-clone" class="project__description--link" target="_blank">
+                    <a
+                      href="https://github.com/kavindaweerakoon/gmail-clone"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="https://gmail-clone-silk.vercel.app/" class="project__description--link" target="_blank">
+                    <a
+                      href="https://gmail-clone-silk.vercel.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -291,19 +404,30 @@
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">Search Clone - Google</h3>
+                  <h3 class="project__description--title">
+                    Search Clone - Google
+                  </h3>
                   <h4 class="project__description--subtitle">
                     HTML5, CSS3, JavaScript, React.js (+hooks), Firebase Deploy
                   </h4>
                   <p class="project__description--para">
-                    Fetched data from the Google Search API to display search results similar to Google Search. 
+                    Fetched data from the Google Search API to display search
+                    results similar to Google Search.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://github.com/kavindaweerakoon/google-clone" class="project__description--link" target="_blank">
+                    <a
+                      href="https://github.com/kavindaweerakoon/google-clone"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="https://google-clone-omega-six.vercel.app/" class="project__description--link" target="_blank">
+                    <a
+                      href="https://google-clone-omega-six.vercel.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -319,19 +443,32 @@
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">Weather App - Vue.js Project</h3>
+                  <h3 class="project__description--title">
+                    Weather App - Vue.js Project
+                  </h3>
                   <h4 class="project__description--subtitle">
-                    HTML5, CSS3, JavaScript, Vue.js, Vite, Tailwind CSS 
+                    HTML5, CSS3, JavaScript, Vue.js, Vite, Tailwind CSS
                   </h4>
                   <p class="project__description--para">
-                    Built a fully responsive weather app using Vue.js, Tailwind CSS and the OpenWeatherMap API. Can search for any city in the world and check temperatures, weather, hourly and weekly weather.
+                    Built a fully responsive weather app using Vue.js, Tailwind
+                    CSS and the OpenWeatherMap API. Can search for any city in
+                    the world and check temperatures, weather, hourly and weekly
+                    weather.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://github.com/kavindaweerakoon/weather-vue-project" class="project__description--link" target="_blank">
+                    <a
+                      href="https://github.com/kavindaweerakoon/weather-vue-project"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="https://weather-vue-project-kavindaweerakoon.vercel.app/" class="project__description--link" target="_blank">
+                    <a
+                      href="https://weather-vue-project-kavindaweerakoon.vercel.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -347,19 +484,32 @@
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">
-                  <h3 class="project__description--title">Client E-Portfolio Starter</h3>
+                  <h3 class="project__description--title">
+                    Client E-Portfolio Starter
+                  </h3>
                   <h4 class="project__description--subtitle">
                     HTML5, CSS3, JavaScript
                   </h4>
                   <p class="project__description--para">
-                    Created a responsive e-portfolio website starter for a client using HTML5, CSS3, and JavaScript best practices.	Provided support for search engine optimization for higher indexing through Google’s search engine crawler. 
+                    Created a responsive e-portfolio website starter for a
+                    client using HTML5, CSS3, and JavaScript best practices.
+                    Provided support for search engine optimization for higher
+                    indexing through Google’s search engine crawler.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://github.com/kavindaweerakoon/steven-e-portfolio" class="project__description--link" target="_blank">
+                    <a
+                      href="https://github.com/kavindaweerakoon/steven-e-portfolio"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fa-brands fa-github"></i>
                     </a>
 
-                    <a href="https://kavindaweerakoon.github.io/steven-e-portfolio/" class="project__description--link" target="_blank">
+                    <a
+                      href="https://kavindaweerakoon.github.io/steven-e-portfolio/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
                       <i class="fas fa-link"></i>
                     </a>
                   </div>
@@ -374,7 +524,11 @@
       <div class="container">
         <div class="row footer__row">
           <figure>
-            <img class="footer__logo--img" src="./assets/kwnetic-logo-black.png" alt="" />
+            <img
+              class="footer__logo--img"
+              src="./assets/kwnetic-logo-black.png"
+              alt=""
+            />
           </figure>
           <div class="footer__social--list">
             <a
@@ -390,8 +544,9 @@
               >LinkedIn</a
             >
             <a
-              href="#" onclick="toggleModal()"
-              class="footer__social--link link__hover-effect link__hover-effect--white" 
+              href="#"
+              onclick="toggleModal()"
+              class="footer__social--link link__hover-effect link__hover-effect--white"
               >Contact</a
             >
             <a
@@ -402,7 +557,8 @@
             >
           </div>
           <div class="footer__copyright">
-            Copyright © 2021 - 2022 <br> Kavinda Weerakoon
+            Copyright © 2021 - 2022 <br />
+            Kavinda Weerakoon
           </div>
         </div>
       </div>
