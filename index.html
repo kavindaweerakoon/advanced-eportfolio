@@ -114,6 +114,28 @@
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
+      <!-- Calendly badge widget begin -->
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+      <script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        type="text/javascript"
+        async
+      ></script>
+      <script type="text/javascript">
+        window.onload = function () {
+          Calendly.initBadgeWidget({
+            url: "https://calendly.com/kw--20",
+            text: "Schedule a meeting with me",
+            color: "#0084FF",
+            textColor: "#ffffff",
+            branding: true,
+          });
+        };
+      </script>
+      <!-- Calendly badge widget end -->
       <div class="modal">
         <div class="modal__half modal__about">
           <h3 class="modal__title modal__title--about">
@@ -130,9 +152,9 @@
             web development and generating amazing
             <span class="blue">user experiences</span> to help you and your
             company <span class="blue">grow.</span> 🌱 <br /><br />
-            I also specialize in <span class="blue">email marketing</span>, and I
-            will help your business gain more leads and outshine the competition
-            with my expertise. 📈 <br /><br />
+            I also specialize in <span class="blue">email marketing</span>, and
+            I will help your business gain more leads and outshine the
+            competition with my expertise. 📈 <br /><br />
             I am an focused, detail-oriented developer starting my first
             experiences in <span class="blue">web development </span> over 10
             years ago and I have knowledge working with

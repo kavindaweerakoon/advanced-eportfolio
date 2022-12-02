@@ -66,6 +66,12 @@ textarea:focus {
   border-color: rgb(0, 132, 255);
 }
 
+.calendly-badge-widget {
+  right: 0 !important;
+  left: 20px !important;
+  bottom: 32px !important;
+}
+
 .click {
   cursor: pointer;
   transition: all 150ms ease;
