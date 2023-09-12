@@ -77,6 +77,14 @@ textarea:focus {
   transition: all 150ms ease;
 }
 
+.highlight {
+  text-align: left;
+  font-size: 24px;
+  line-height: 2;
+  max-width: 1333px;
+  position: relative;
+}
+
 .click:hover {
   transform: scale(1.075);
 
@@ -85,6 +93,8 @@ textarea:focus {
 .click:active {
   transform: scale(0.925);
 }
+
+
 
 .blue {
   color: rgb(0, 132, 255);
@@ -163,7 +173,8 @@ nav,
 .dark-theme .section__subtitle,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para {
+.dark-theme .header__para,
+.dark-theme .highlight {
   color: #fff;
 }
 
@@ -349,7 +360,7 @@ nav figure {
 }
 
 #personal-logo {
-  width:  192px;
+  width:  124px;
   margin-top: 10px;
   object-fit: contain;
 }
@@ -499,7 +510,7 @@ nav figure {
 }
 
 .modal__para {
-  font-size: 12.5px;
+  font-size: 16px;
   line-height: 1.725;
   margin: 0 auto;
 }
@@ -616,6 +627,15 @@ nav figure {
   margin-bottom: 64px;
   position: relative;
 }
+
+.section__subtitle {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 64px;
+  position: relative;
+}
+
+
 
 .project {
   margin: 128px auto;
@@ -742,6 +762,9 @@ nav figure {
 
 
 
+
+
+
 /* Adjustments for responsiveness */
 @media (max-device-width: 976px) {
   
@@ -751,8 +774,15 @@ nav figure {
     margin-right: 0;
     margin-bottom: 50px;
 }
-}
 
+.highlight {
+  flex-basis: 100%;
+
+    margin-right: 0;
+    padding-bottom: 50px;
+    text-align: center;
+}
+}
 /* FOOTER */
 
 footer {
@@ -847,7 +877,7 @@ footer {
     font-size: 80px;
   }
 
-  .header__para {
+  .header__para, .highlight {
     font-size: 20px;
   }
 
@@ -881,7 +911,7 @@ footer {
   .title {
     font-size: 52px;
   }
-  .header__para {
+  .header__para, .highlight {
     font-size: 18px;
   }
 
