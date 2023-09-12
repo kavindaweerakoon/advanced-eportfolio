@@ -85,6 +85,8 @@ textarea:focus {
   position: relative;
 }
 
+
+
 .click:hover {
   transform: scale(1.075);
 
@@ -879,6 +881,11 @@ footer {
 
   .header__para, .highlight {
     font-size: 20px;
+  }
+
+  .highlight__subtitle {
+    line-height: 125%;
+    padding-bottom: 5%;
   }
 
   .modal {
